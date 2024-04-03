@@ -1,0 +1,47 @@
+int main ()
+{
+  int D.2364;
+
+  {
+    int x;
+    int y;
+    int i;
+    int j;
+    int z;
+
+    printf ("Generacion de codigo de 3 direcciones\n");
+    x = 34;
+    _1 = x * 34;
+    _2 = x + 1;
+    y = _1 - _2;
+    i = 0;
+    <D.2355>:
+    i = i + 1;
+    if (i <= 9) goto <D.2355>; else goto <D.2353>;
+    <D.2353>:
+    goto <D.2357>;
+    <D.2358>:
+    i = i + 1;
+    <D.2357>:
+    if (i <= 14) goto <D.2358>; else goto <D.2356>;
+    <D.2356>:
+    {
+      int k;
+
+      k = 0;
+      goto <D.2362>;
+      <D.2361>:
+      x = x + 1;
+      k = k + 1;
+      <D.2362>:
+      if (k < i) goto <D.2361>; else goto <D.2359>;
+      <D.2359>:
+    }
+    D.2364 = y;
+    return D.2364;
+  }
+  D.2364 = 0;
+  return D.2364;
+}
+
+
