@@ -5,7 +5,15 @@ int main (void) {
 	int x,y,i,j,z;
 	x = 34;
 	y = x * 34 - (x - 12 + 13);
-	
+
+	// Sentencias condicionales (if)
+	if (y > 1000) {
+		printf("Es un numero muy alto\n");
+	} else {
+		printf("Es un numero bajo\n");
+	}
+
+	// Sentencias ciclicas (While, form do-while)
 	i = 0;
 	do {
 		i = i + 1 + 0;
